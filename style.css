@@ -23,3 +23,34 @@ footer{text-align:center;padding:12px 0 40px;color:#c7c2f0;letter-spacing:5px;fo
 .project-grid{grid-template-columns:repeat(3,1fr)}.project-grid .work-card{min-height:300px}.project-grid .work-art{height:200px;font-size:80px}
 @media(max-width:760px){.topbar{padding-top:16px}.brandmark{width:52px;height:52px}.hero{grid-template-columns:1fr;padding:40px 24px 28px;border-radius:34px;margin-bottom:60px}.hero h1{font-size:60px}.hero-card{padding:24px}.astronaut{font-size:72px;right:4%;top:-30px}.section{padding:26px 18px 30px;border-radius:32px}.section-head{align-items:flex-start;flex-direction:column}.feature-grid,.about-layout{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.project-grid{grid-template-columns:1fr 1fr}.section:before{top:95px}.nav a{width:53px;height:53px}.work-card{min-height:210px}}
 @media(max-width:440px){.search{height:50px;padding:0 14px}.search span{margin-right:8px}.hero h1{font-size:48px;letter-spacing:-2px}.gallery,.project-grid{grid-template-columns:1fr 1fr}.work-art{height:125px}.work-card{min-height:190px}.feature{align-items:flex-start}.feature-icon{font-size:45px}}
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 16px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle at 35% 30%,
+        #e6e2ff,
+        #827bd0 65%,
+        #322d64
+    );
+    border: 5px solid #fff;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile {
+    text-align: center;
+}
+
+.profile h2,
+.profile p {
+    text-align: center;
+}
